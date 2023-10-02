@@ -79,3 +79,4 @@ Intall mysql role and rename it
 ansible-galaxy install geerlingguy.mysql
 mv geerlingguy.mysql/ mysql
 ```
+Read README.md file, and edit roles configuration to use correct credentials for MySQL required for the tooling website previously created in [Project tooling]()
