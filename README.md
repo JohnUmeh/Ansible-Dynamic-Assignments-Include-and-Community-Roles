@@ -7,9 +7,9 @@ When the import module is used, all statements are pre-processed at the time pla
 On the other hand, when include module is used, all statements are processed only during execution of the playbook. Meaning, after the statements are parsed, any changes to the statements encountered during execution will be used. 
 
 # Introducing Dynamic Assignment Into Our structure
-Create a new branch in your  https://github.com/<your-name>/ansible-config-mgt github repository and name it `dynamic-assignment` Checout into this branch
+Create a new branch in your https://github.com/<your-name>/ansible-config-mgt github repository and name it `dynamic-assignment` Checout into this branch
 
-Create a new dynamic-assignments folder. Then inside this folder, create a new file and name it env-vars.yml. We will instruct site.yml to include this playbook later.
+Create a new dynamic-assignments folder. Then inside this folder, create a new file and name it `env-vars.yml`. We will instruct site.yml to include this playbook later.
 
 The structure of the the work set-up should look like this now especially if you used ansible-galaxy in the previous project 
 
