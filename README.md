@@ -1,3 +1,4 @@
+
 # Ansible-Dynamic-Assignments-Include-and-Community-Roles
 
 This project i will be introducing dynamic assignments by using include module since i have previously used import function in static assignment in the previous [project](https://github.com/JohnUmeh/ansible-config-mgt.git) 
@@ -79,4 +80,32 @@ Intall mysql role and rename it
 ansible-galaxy install geerlingguy.mysql
 mv geerlingguy.mysql/ mysql
 ```
-Read README.md file, and edit roles configuration to use correct credentials for MySQL required for the tooling website previously created in [Project tooling]()
+Read README.md file, and edit roles configuration to use correct credentials for MySQL required for the tooling website previously created in [Project tooling](https://github.com/JohnUmeh/Project7-Tooling.git)
+
+Add and push the changes in your repository 
+
+```
+git add .
+git commit -m "Commit new role files into GitHub"
+git push --set-upstream origin roles-feature
+```
+Pull and maerge the changes on your github.
+
+# Load Balancer roles
+
+We will be choosing either of apache or nginx loadbalancer to use in this project
+
+Inside roles folder, add nginx and apache roles from community
+
+```
+ansible-galaxy install geerlingguy.apache
+ansible-galaxy install geerlingguy.nginx
+
+```
+Rename the roles to nginx and apache respectively
+
+```
+sudo mv geerlingguy.nginx nginx
+sudo mv geerlingguy.apache apache
+```
+
