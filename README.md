@@ -177,6 +177,7 @@ load_balancer_is_required: false
 
 Let us make use of the env-vars\uat.yml file to define which loadbalancer to use in UAT environment by setting respective environmental variable to true.
 
+```
 ---
 enable_nginx_lb: true
 load_balancer_is_required: true
